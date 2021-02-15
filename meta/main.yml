@@ -9,4 +9,4 @@ galaxy_info:
    - slave-configuration
    - kubernetes
 
-dependencies: boto library
+dependencies: boto library master-instance master_conf roles
