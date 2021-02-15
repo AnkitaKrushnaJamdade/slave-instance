@@ -1,0 +1,15 @@
+galaxy_info:
+  author: Ankita Jamdade
+  description: This role will launch two ec2 instances
+
+  min_ansible_version: 2.9
+
+  galaxy_tags: 
+   - slave
+   - slave-configuration
+   - kubernetes
+
+dependencies: 
+    - aws account
+    - boto library
+    - IAM user credentials
