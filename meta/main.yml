@@ -1,6 +1,6 @@
 galaxy_info:
   author: Ankita Jamdade
-  description: This role will launch two ec2 instances
+  description: This role will launch two ec2 instances having tag as key = Name and value = k8s_slave_an
 
   min_ansible_version: 2.9
 
