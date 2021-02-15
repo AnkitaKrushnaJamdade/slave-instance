@@ -1,6 +1,5 @@
 ---
 # tasks file for slave-instance
-
 - name: launching 2 instances 
   ec2:
         aws_access_key: "{{ aws_access_key }}"
@@ -13,6 +12,5 @@
         instance_tags: '{"Name":"k8s_slave_an"}'
         wait: yes
         key_name: For_Task_4_real
-
 # You need to specify your key name which is available in aws. Also security group should be there and id of required instance. You can specify other instance_type like m2.small, m2.micro
 # Instances launched will have tags as k8s_slave_an which is helpful to apply specific plays on specific instances.
