@@ -1,0 +1,6 @@
+---
+# vars file for slave-instance
+aws_access_key: "Your Access Key"
+aws_secret_key: "Your Secret Key"
+
+# You've to provide your IAM User's credentials(secret key and access key)
