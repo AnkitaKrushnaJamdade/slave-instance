@@ -1,0 +1,17 @@
+---
+# tasks file for slave-instance
+
+- ec2:
+        aws_access_key: "{{ aws_access_key }}"
+        aws_secret_key: "{{ aws_secret_key }}"
+        count: 2
+        instance_type: t2.micro
+        image: ami-0e2e44c03b85f58b3
+        group_id: sg-040402e1934f83539
+        region: ap-southeast-1
+        instance_tags: '{"Name":"k8s_slave_an"}'
+        wait: yes
+        key_name: For_Task_4_real
+
+# You need to specify your key name which is available in aws. Also security group should be there and id of required instance. You can specify other instance_type like m2.small, m2.micro
+# Instances launched will have tags as k8s_slave_an which is helpful to apply specific plays on specific instances.
