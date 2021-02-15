@@ -9,7 +9,4 @@ galaxy_info:
    - slave-configuration
    - kubernetes
 
-dependencies: 
-    - aws account
-    - boto library
-    - IAM user credentials
+dependencies: boto library
