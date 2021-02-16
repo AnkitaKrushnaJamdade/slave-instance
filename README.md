@@ -1,4 +1,4 @@
-slave-instance
+slave_instance
 =========
 
 This role will launch 2 slave instances and they're tagged as key = Name and value = k8s_slave_an
