@@ -17,8 +17,9 @@ Dependencies
 ------------
 
 The roles required are:
-master-instance
+master_instance
 master_conf
+slave_conf
 
 Example Playbook
 ----------------
